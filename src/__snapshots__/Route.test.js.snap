@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Route should match snapshot 1`] = `
+<div>
+  path
+</div>
+`;
+
+exports[`Route should match snapshot if route does not match 1`] = `null`;

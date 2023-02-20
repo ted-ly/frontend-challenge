@@ -1,0 +1,111 @@
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.step-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.step-title {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    margin: 10px 0;
+    height: 30px;
+    padding: 0 5px;
+}
+
+button {
+    height: 35px;
+}
+
+svg {
+    font-size: 2em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: left;
+}
+
+.next-btn {
+    margin-left: 10px;
+}
+
+.terms-container {
+    display: flex;
+    align-items: center;
+}
+
+.terms-text {
+    margin-left: 10px;
+}
+
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.confirmation-text {
+    padding: 10px 0;
+}
+
+.post-submit-message {
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.Spinner {
+    margin: 0 auto;
+    width: 70px;
+    text-align: center;
+}
+  
+.Spinner__bounce1,
+.Spinner__bounce2,
+.Spinner__bounce3 {
+    width: 18px;
+    height: 18px;
+    background-color: #333;
+    border-radius: 100%;
+    display: inline-block;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.Spinner__bounce2 {
+    animation-delay: -1.0s;
+}
+
+.Spinner__bounce3 {
+    animation-delay: -0.5s;
+}
+
+@keyframes sk-bounce {
+    0%,
+    100% {
+        transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+    }
+}

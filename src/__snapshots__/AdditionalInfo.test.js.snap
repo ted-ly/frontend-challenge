@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdditionalInfo should match with snapshot 1`] = `
+<div
+  className="step-container"
+>
+  <div
+    className="step-title"
+  >
+    Additional Info
+  </div>
+  <select
+    name="color"
+  >
+    <option
+      value=""
+    >
+      Select Your Favorite Color
+    </option>
+  </select>
+  <div
+    className="terms-container"
+  >
+    <input
+      checked={false}
+      name="terms"
+      type="checkbox"
+    />
+    <label
+      className="terms-text"
+    >
+      I agree to 
+      <a
+        href=""
+      >
+        Terms And Conditions
+      </a>
+    </label>
+  </div>
+  <div
+    className="button-container"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Back
+    </button>
+    <button
+      className="next-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      Next
+    </button>
+  </div>
+</div>
+`;

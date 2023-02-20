@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should match snapshot 1`] = `
+<div
+  className="form"
+>
+  <div
+    className="step-container"
+  >
+    <div
+      className="step-title"
+    >
+      Sign Up
+    </div>
+    <div
+      className="signup-container"
+    >
+      <input
+        name="name"
+        onChange={[Function]}
+        placeholder="First Name"
+        type="text"
+        value=""
+      />
+      <input
+        name="password"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+      <input
+        name="email"
+        onChange={[Function]}
+        placeholder="E-mail"
+        type="email"
+        value=""
+      />
+      <div
+        className="button-container"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdditionalInfo should match snapshot 1`] = `
+<div
+  className="step-container"
+>
+  <div
+    className="step-title"
+  >
+    Confirmation
+  </div>
+  <div
+    className="confirmation-container"
+  >
+    <label
+      className="confirmation-text"
+      title="name"
+    >
+      First Name: 
+    </label>
+    <label
+      className="confirmation-text"
+      title="email"
+    >
+      E-mail: 
+    </label>
+    <label
+      className="confirmation-text"
+      title="password"
+    >
+      Password: 
+    </label>
+    <label
+      className="confirmation-text"
+      title="color"
+    >
+      Favorite Color: 
+    </label>
+    <label
+      className="confirmation-text"
+      title="terms"
+    >
+      Terms And Conditions: Disagreed
+    </label>
+    <div>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Back
+      </button>
+      <button
+        className="next-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Submit
+      </button>
+    </div>
+  </div>
+</div>
+`;

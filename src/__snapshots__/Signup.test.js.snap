@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signup should match snapshot 1`] = `
+<div
+  className="step-container"
+>
+  <div
+    className="step-title"
+  >
+    Sign Up
+  </div>
+  <div
+    className="signup-container"
+  >
+    <input
+      name="name"
+      placeholder="First Name"
+      type="text"
+      value=""
+    />
+    <input
+      name="password"
+      placeholder="Password"
+      type="password"
+      value=""
+    />
+    <input
+      name="email"
+      placeholder="E-mail"
+      type="email"
+      value=""
+    />
+    <div
+      className="button-container"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        Next
+      </button>
+    </div>
+  </div>
+</div>
+`;

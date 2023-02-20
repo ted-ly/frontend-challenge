@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step should match snapshot 1`] = `
+<div
+  className="step-container"
+>
+  <div
+    className="step-title"
+  />
+</div>
+`;
+
+exports[`Step should match snapshot with Spinner 1`] = `
+<div
+  className="step-container"
+>
+  <div
+    className="step-title"
+  />
+  <div
+    className="Spinner"
+  >
+    <div
+      className="Spinner__bounce1"
+    />
+    <div
+      className="Spinner__bounce2"
+    />
+    <div
+      className="Spinner__bounce3"
+    />
+  </div>
+</div>
+`;
